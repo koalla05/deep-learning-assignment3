@@ -1,0 +1,154 @@
+[
+  {
+    "source": "ru",
+    "row_id": 2777183,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence with a Ukrainian proper name; both scripts do not imply mixed grammar."
+  },
+  {
+    "source": "ru",
+    "row_id": 3058443,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence with a Ukrainian proper name; both scripts do not imply mixed grammar."
+  },
+  {
+    "source": "ru",
+    "row_id": 6808129,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence with a Ukrainian proper name; both scripts do not imply mixed grammar."
+  },
+  {
+    "source": "ru",
+    "row_id": 1170213,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian syntax despite no language-specific letter."
+  },
+  {
+    "source": "ru",
+    "row_id": 1510475,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian syntax despite no language-specific letter."
+  },
+  {
+    "source": "ru",
+    "row_id": 3603878,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian syntax despite no language-specific letter."
+  },
+  {
+    "source": "ru",
+    "row_id": 4099316,
+    "cue": "ru_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence."
+  },
+  {
+    "source": "ru",
+    "row_id": 5403335,
+    "cue": "ru_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence."
+  },
+  {
+    "source": "ru",
+    "row_id": 7643804,
+    "cue": "ru_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "ru",
+    "observation": "Russian sentence."
+  },
+  {
+    "source": "uk",
+    "row_id": 130138,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence with Russian quotations."
+  },
+  {
+    "source": "uk",
+    "row_id": 250103,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence with a Russian spelling."
+  },
+  {
+    "source": "uk",
+    "row_id": 438155,
+    "cue": "both_scripts",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence with a Russian page title."
+  },
+  {
+    "source": "uk",
+    "row_id": 572982,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian syntax despite no Ukrainian-specific letter."
+  },
+  {
+    "source": "uk",
+    "row_id": 688615,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian syntax despite no Ukrainian-specific letter."
+  },
+  {
+    "source": "uk",
+    "row_id": 821141,
+    "cue": "indeterminate",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian syntax despite no Ukrainian-specific letter."
+  },
+  {
+    "source": "uk",
+    "row_id": 808930,
+    "cue": "ru_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence containing a Russian book title."
+  },
+  {
+    "source": "uk",
+    "row_id": 31334,
+    "cue": "uk_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence."
+  },
+  {
+    "source": "uk",
+    "row_id": 324137,
+    "cue": "uk_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence."
+  },
+  {
+    "source": "uk",
+    "row_id": 800849,
+    "cue": "uk_specific_letters",
+    "reviewer": "assistant_first_pass",
+    "dominant_language": "uk",
+    "observation": "Ukrainian sentence."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "source": "ru",
+    "development_id": 197336,
+    "training_id": 54421,
+    "accepted": true,
+    "reason": "Same specific statement with minor grammatical or wording changes; group conservatively."
+  },
+  {
+    "source": "ru",
+    "development_id": 4063831,
+    "training_id": 3000038,
+    "accepted": false,
+    "reason": "Generic reporting template with different referent; do not assert a duplicate document/event."
+  },
+  {
+    "source": "ru",
+    "development_id": 4063831,
+    "training_id": 3919826,
+    "accepted": false,
+    "reason": "Generic reporting template with different referent; do not assert a duplicate document/event."
+  },
+  {
+    "source": "ru",
+    "development_id": 4063831,
+    "training_id": 4359068,
+    "accepted": false,
+    "reason": "Generic reporting template with different referent; do not assert a duplicate document/event."
+  },
+  {
+    "source": "ru",
+    "development_id": 4063831,
+    "training_id": 4558134,
+    "accepted": false,
+    "reason": "Generic reporting template with different referent; do not assert a duplicate document/event."
+  },
+  {
+    "source": "uk",
+    "development_id": 998045,
+    "training_id": 112453,
+    "accepted": true,
+    "reason": "Same specific statement with minor grammatical or wording changes; group conservatively."
+  }
+]

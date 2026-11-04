@@ -1,0 +1,2 @@
+eda/output/role_manifest_v2.parquet filter=lfs diff=lfs merge=lfs -text
+eda/output/cv_manifest_v1.parquet filter=lfs diff=lfs merge=lfs -text
