@@ -1,10 +1,15 @@
-# Supplied data and assignment documents
-/data/
+# Keep dataset documentation, not the supplied data
+/data/*
+!/data/kse-ua-location-extraction-2026/
+/data/kse-ua-location-extraction-2026/*
+!/data/kse-ua-location-extraction-2026/README.md
+
+# Supplied assignment documents
 /*.pdf
 
 # Local environment and generated experiment artifacts
 /.venv/
-/eda/output/
+/eda/output/*
 /eda/submissions/
 *.pt
 *.pth
@@ -13,6 +18,10 @@
 *.duckdb.wal
 *.tar.gz
 *.log
+
+# Share only the frozen split manifests (stored with Git LFS)
+!/eda/output/role_manifest_v2.parquet
+!/eda/output/cv_manifest_v1.parquet
 
 # Python, notebook, and macOS caches
 __pycache__/
