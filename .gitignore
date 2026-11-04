@@ -1,0 +1,26 @@
+# Supplied data and assignment documents
+/data/
+/*.pdf
+
+# Local environment and generated experiment artifacts
+/.venv/
+/eda/output/
+/eda/submissions/
+*.pt
+*.pth
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.tar.gz
+*.log
+
+# Python, notebook, and macOS caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Local research context
+/CONTEXT.md
+/LOCAL_CONTEXT.md
+/tmp/
