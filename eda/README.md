@@ -224,3 +224,18 @@ The extraction comparison uses only the frozen CV rows; it never reads the final
 ### Domain checks
 
 The earlier word BiGRU check runs with `python -m eda.workflows.domain_recurrent_control`, followed by `python -m eda.workflows.domain_cue_baselines` to compare it with simple language and length cues. The word BiLSTM experiment runs with `python -m eda.workflows.domain_bilstm`; use `--max-new-runs 1` to time the first fit. It resumes only if inputs, code, and settings are unchanged.
+
+## Make a Kaggle submission
+
+From the project root, with the supplied competition files and local checkpoints in place:
+
+```sh
+python -m eda.workflows.make_submission
+python -m eda.workflows.make_submission --checkpoint fold0_mixed_lstm_word
+```
+
+By default, the three fold models of the word BiLSTM each predict locations, and a location is kept when at least two agree on its exact wording. Each model was trained on about 10,500 labeled rows, **not** on the full training data. The second command runs just one model. Use `--output path/to/submission.csv` to choose another CSV path.
+
+The commands save a Kaggle-ready CSV and a neighboring compressed raw JSONL file with each model's spans and confidence scores; a neighboring JSON file records the checkpoints and voting rule. They also print and save a check on the 26 labeled examples in `eda/output/submission_sanity_labeling_sample.json`. This small qualitative sample is not a leaderboard score; report any Kaggle results explicitly as leaderboard scores.
+
+`eda/submissions/` and `eda/output/` are ignored by Git (apart from the shared split manifests). Checkpoints are local only; a fresh clone must obtain them separately. No command here uploads a submission.

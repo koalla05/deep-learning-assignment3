@@ -78,6 +78,7 @@ Each row has exactly one role, so the exclusion counts do not overlap. **Never u
 | [`eda/README.md`](eda/README.md) | Detailed analysis, experiment setup, and reproduction steps |
 | [`eda/notebooks/`](eda/notebooks/) | Executed data audit, extraction, and domain analyses |
 | [`eda/model_plan.md`](eda/model_plan.md) | Scope of the GRU/LSTM comparison |
+| [`eda/competition_like_validation_plan.md`](eda/competition_like_validation_plan.md) | Plan for reliable submissions and a competition-like validation set |
 | [`data/kse-ua-location-extraction-2026/README.md`](data/kse-ua-location-extraction-2026/README.md) | Dataset description and team setup |
 
 Raw data, checkpoints, generated outputs, and submissions stay outside Git; only the two split manifests are shared, through Git LFS.
