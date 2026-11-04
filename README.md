@@ -40,6 +40,17 @@ How well a classifier separates source text from competition posts (AUC: 0.5 is 
 
 The two collections remain clearly distinguishable. For Russian, much of this comes simply from language: competition posts are mostly Ukrainian. The Ukrainian comparison points to differences beyond language. Results vary across seeds and samples are small; see the [detailed interpretation](eda/README.md#what-the-results-mean).
 
+## Kaggle submission check
+
+The Kaggle CLI now reports two completed model submissions (public scores, 4 November 2026):
+
+| Submission | Public F1 |
+| --- | ---: |
+| Three word BiLSTM fold models, two-vote agreement | **0.41086** |
+| Word BiGRU pilot | 0.40449 |
+
+The BiLSTM submission uses three separately trained models. Each trained on two of the three source-data folds, with a different fold held out. All three predict the same 477 competition posts; a location is included when at least two models predict the same exact string. The BiGRU entry uses a different pilot training setup, so the 0.00637 leaderboard gap cannot be assigned to LSTM versus GRU alone. These are public scores; private scores are unavailable. See [submission details](eda/README.md#kaggle-submission-results) for the format checks and earlier failed uploads.
+
 ## Required split and exclusion policy for future experiments
 
 **Every new experiment must use the frozen split.** Use `eda/output/role_manifest_v2.parquet` and its `role_v2` column, not a fresh random split of the raw CSVs. Join it to the original source rows by `(source, row_id)`. The manifests are shared through Git LFS; the [dataset guide](data/kse-ua-location-extraction-2026/README.md#team-setup-and-experiment-splits) explains how to download and join them.

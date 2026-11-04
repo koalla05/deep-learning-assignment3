@@ -147,7 +147,7 @@ Every fit uses six epochs, a vocabulary learned only from its own training texts
 
 **Uncertainty is larger than the tables suggest.** The samples are small. Repeated runs use the same training and evaluation texts; only the seed changes, which affects starting weights, dropout, and batch order. So seed ranges show training variability, not variability from new text samples.
 
-**Bottom line: good extraction scores on the source data may not carry over to competition posts.** These results show a transfer risk; they do not measure how much extraction F1 drops or estimate the Kaggle score.
+Good extraction scores on the source data may not carry over to competition posts. These results show a transfer risk; they do not measure how much extraction F1 drops or estimate the Kaggle score.
 
 ### Checks and supporting numbers
 
@@ -162,6 +162,22 @@ Every fit uses six epochs, a vocabulary learned only from its own training texts
 - AUC measures ranking, not accuracy at a fixed 0.5 cut-off. One controlled Russian BiLSTM run had AUC 0.869 but balanced accuracy of only 0.500. The cut-off was not tuned.
 - Paired uncertainty intervals resample the same held-out groups for both architectures. They describe the saved models, not variation from new samples or other seeds. The [domain notebook](notebooks/domain_analysis.ipynb) records per-run comparisons and intervals.
 - These classifiers are separate from the location extractors. Their vocabularies include their training competition posts; extractor vocabularies do not. No extraction model was retrained, and the final evaluation set stayed reserved. Per-run scores, predictions, and audits are saved locally in `output/eda_comparison/domain_word_bilstm/`.
+
+## Kaggle submission results
+
+The Kaggle CLI showed the following completed submissions on 4 November 2026. These are **public leaderboard scores**, calculated on hidden competition labels. They are separate from the source-data cross-validation scores above.
+
+| File | Submission ID | Public F1 | What it contains |
+| --- | ---: | ---: | --- |
+| `submission_bilstm_word_vote3.csv` | 57999555 | **0.41086** | Word BiLSTM predictions accepted by at least two of three fold models |
+| `submission_bigru_pilot_v2.csv` | 57999600 | 0.40449 | Earlier word BiGRU pilot predictions |
+| `submission_format_probe.csv` | 57999516 | 0.00000 | Empty lists for every post; a format check |
+
+“Three fold models” means three independent BiLSTM fits from the grouped cross-validation experiment. Model 0 trains on folds 1 and 2, model 1 on folds 0 and 2, and model 2 on folds 0 and 1. Each model has its own word vocabulary and saw about 10,500 labeled training rows. For the submission, all three predict the same 477 competition posts. A location string is kept if at least two predict that exact wording. This is a vote over three models, not a model trained three times longer or on all source rows.
+
+The BiLSTM vote leads the BiGRU pilot by 0.00637 public F1, but the submissions differ in training sample and voting as well as architecture. They are not a controlled GRU-versus-LSTM comparison. The single-model BiLSTM CSV exists locally but has no recorded completed Kaggle score. Private leaderboard scores are still blank.
+
+The local CSVs for the two scored model entries contain 477 rows and parseable location lists. The same `v2` BiGRU filename and empty-list probe had earlier failed uploads, then completed on 4 November; the CLI does not identify the backend change that allowed them through. The later `submission_bigru_pilot_v3.csv` still has an error status: 130 of its 477 rows do not parse as CSV location lists because lists containing commas are not quoted as one cell. A completed submission shows the format is accepted; its public F1 is the only competition performance evidence available here.
 
 ## Repository layout
 
