@@ -1,0 +1,6 @@
+{
+  "seed": 3012026,
+  "uk_additional_holdout_per_10000": 400,
+  "ru_document_holdout_per_10000": 200,
+  "note": "The supplied Ukrainian validation flag is retained. Extra Ukrainian texts and Russian documents are selected by seeded MD5. Training rows whose exact text occurs in validation are excluded. Duplicate texts with conflicting location markers are excluded from all cohorts."
+}

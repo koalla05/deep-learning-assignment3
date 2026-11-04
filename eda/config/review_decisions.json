@@ -1,0 +1,702 @@
+[
+  {
+    "source": "uk",
+    "row_id": 933589,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "Country names within currency abbreviations are labeled. Retain; assess whether the target convention includes these mentions."
+  },
+  {
+    "source": "uk",
+    "row_id": 269260,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 538588,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 208628,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "Town and enclosing region are one span. Nested geographic scope differs from separately labeled adjacent names."
+  },
+  {
+    "source": "uk",
+    "row_id": 34672,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 633629,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 959560,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 228195,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 764477,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 598945,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "A generic metaphorical camp is labeled. Named-place versus descriptive-location policy is unclear."
+  },
+  {
+    "source": "uk",
+    "row_id": 904619,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 983502,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 695942,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 136892,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 865062,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 300038,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 740590,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 410606,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 601666,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 337055,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 61024,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 382332,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "Хрещатик appears to denote a publication in this context, not the street."
+  },
+  {
+    "source": "uk",
+    "row_id": 258987,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 379051,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 27743,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 397677,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 698543,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 712122,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 561800,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 262364,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 49816,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "First marker includes the quote and part of тактичне. The named tactical group is also a category ambiguity."
+  },
+  {
+    "source": "uk",
+    "row_id": 594332,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Address span ends inside the room number 202. Do not infer a correction automatically."
+  },
+  {
+    "source": "uk",
+    "row_id": 314217,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Span combines Eiffel Tower with a partial next word; Louvre is not separately marked."
+  },
+  {
+    "source": "uk",
+    "row_id": 578551,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Marker includes trailing whitespace; Burkina Faso is also an apparent missing country mention."
+  },
+  {
+    "source": "uk",
+    "row_id": 276347,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Second marker ends partway through школу; school versus place category also needs a convention."
+  },
+  {
+    "source": "uk",
+    "row_id": 804778,
+    "reviewer": "assistant_first_pass",
+    "verdict": "representation_limit",
+    "notes": "The raw street/address span is semantically plausible; a supplied token crosses its boundary. Not evidence that this raw label is wrong."
+  },
+  {
+    "source": "uk",
+    "row_id": 981641,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Marker selects only an interior fragment of Івано-Франківській."
+  },
+  {
+    "source": "uk",
+    "row_id": 75234,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Several markers select name fragments or extend into surrounding prose; mall/organization scope is also ambiguous."
+  },
+  {
+    "source": "uk",
+    "row_id": 796767,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Museum name ends inside художньому."
+  },
+  {
+    "source": "uk",
+    "row_id": 640622,
+    "reviewer": "assistant_first_pass",
+    "verdict": "boundary_error",
+    "notes": "Street and station spans extend into subsequent verbs; several other place names are unmarked."
+  },
+  {
+    "source": "uk",
+    "row_id": 893832,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 720747,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 967527,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 814658,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 94842,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 761322,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "University name is an organization; whether an institution used as a destination counts as location is unresolved."
+  },
+  {
+    "source": "uk",
+    "row_id": 554853,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 751108,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 419837,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "uk",
+    "row_id": 981633,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 4931248,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5095894,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7901247,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1047608,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 740590,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7976475,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 4702868,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5786989,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 3861748,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7401989,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7333629,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5594601,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5222146,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5789061,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1667429,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1737395,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 300038,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1859185,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5466839,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 2367244,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6866059,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6363561,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 3833375,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "Theatre names can denote institutions or physical venues. Negative label is plausible under an organization exclusion rule."
+  },
+  {
+    "source": "ru",
+    "row_id": 5205171,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 3325998,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 3029194,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 410606,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1140535,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 4593915,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5875568,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 920653,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5095122,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 633704,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6285528,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6539080,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 375083,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 1974079,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7203310,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 170263,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "СНГ denotes a political association; lack of a location marker is plausible under the source convention."
+  },
+  {
+    "source": "ru",
+    "row_id": 6690887,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 5310089,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7467161,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 4831666,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 2771433,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 7073164,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 4862410,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6008355,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 6210618,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  },
+  {
+    "source": "ru",
+    "row_id": 2714990,
+    "reviewer": "assistant_first_pass",
+    "verdict": "policy_question",
+    "notes": "The Sun is labeled as a location. Whether celestial bodies belong in the target task is unspecified."
+  },
+  {
+    "source": "ru",
+    "row_id": 5480835,
+    "reviewer": "assistant_first_pass",
+    "verdict": "no_evident_issue",
+    "notes": "No evident missing named place or incorrect boundary in this sentence; this is a single-reviewer judgment."
+  }
+]
