@@ -1,0 +1,11 @@
+duckdb>=1.1
+lightning>=2.4
+matplotlib>=3.9
+numpy>=2.0
+pandas>=2.2
+pyarrow>=19
+pytorch-crf>=0.7
+tokenizers>=0.20
+torch>=2.5
+wandb>=0.18
+ipykernel>=6
