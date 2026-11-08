@@ -33,3 +33,10 @@ __pycache__/
 /CONTEXT.md
 /LOCAL_CONTEXT.md
 /tmp/
+
+# Model experiments: rebuildable data, vectors, logits and checkpoints
+/model/cache/
+/model/artifacts/
+/model/submissions/
+
+/model/wandb/
