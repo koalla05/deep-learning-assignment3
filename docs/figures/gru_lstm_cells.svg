@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="294" viewBox="0 0 960 294" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20.0" y="24.0" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="start">GRU vs LSTM cell at our sizes (input 308, hidden 96)</text>
+<rect x="20.0" y="44.0" width="450.0" height="190.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="34.0" y="66.0" font-size="13" font-weight="bold" fill="#1f2937" text-anchor="start">GRU (final model)</text>
+<text x="34.0" y="92.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">z(t) = σ(W_z x(t) + U_z h(t−1) + b_z)  — update gate</text>
+<text x="34.0" y="110.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">r(t) = σ(W_r x(t) + U_r h(t−1) + b_r)  — reset gate</text>
+<text x="34.0" y="128.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">n(t) = tanh(W_n x(t) + r(t) ⊙ (U_n h(t−1) + b_hn) + b_in)</text>
+<text x="34.0" y="146.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">h(t) = (1 − z(t)) ⊙ n(t) + z(t) ⊙ h(t−1)</text>
+<text x="34.0" y="164.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start"></text>
+<text x="34.0" y="182.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">3 blocks × (96·308 + 96·96 + 2·96) = 116,928 per direction</text>
+<text x="34.0" y="200.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">bidirectional: 233,856 · whole model 234,498</text>
+<rect x="490.0" y="44.0" width="450.0" height="190.0" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="1.4"/>
+<text x="504.0" y="66.0" font-size="13" font-weight="bold" fill="#1f2937" text-anchor="start">LSTM (ensemble member)</text>
+<text x="504.0" y="92.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">i(t), f(t), o(t) = σ(W x(t) + U h(t−1) + b)  — input, forget, output gates</text>
+<text x="504.0" y="110.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">g(t) = tanh(W_g x(t) + U_g h(t−1) + b_g)</text>
+<text x="504.0" y="128.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">c(t) = f(t) ⊙ c(t−1) + i(t) ⊙ g(t)  — separate cell state</text>
+<text x="504.0" y="146.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">h(t) = o(t) ⊙ tanh(c(t))</text>
+<text x="504.0" y="164.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start"></text>
+<text x="504.0" y="182.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">4 blocks × (96·308 + 96·96 + 2·96) = 155,904 per direction</text>
+<text x="504.0" y="200.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">bidirectional: 311,808 · whole model 312,450 (+33%)</text>
+<text x="20.0" y="258.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">Two bias vectors per gate block is the PyTorch convention. Notebook 02 found GRU and LSTM tied on fold 0, so the cheaper GRU became the final model;</text>
+<text x="20.0" y="276.0" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">the LSTM adds a different error pattern to the ensemble.</text>
+</svg>

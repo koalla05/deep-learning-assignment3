@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="476" viewBox="0 0 960 476" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20.0" y="24.0" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="start">Training one fold model (k = 0, 1, 2) on the frozen leak-free split</text>
+<rect x="20.0" y="38.0" width="14.0" height="14.0" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+<text x="40.0" y="49.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">training data</text>
+<rect x="143.3" y="38.0" width="14.0" height="14.0" rx="3" fill="#fce7f3" stroke="#db2777" stroke-width="1.4"/>
+<text x="163.3" y="49.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">never seen by model k</text>
+<rect x="315.4" y="38.0" width="14.0" height="14.0" rx="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="335.4" y="49.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">model</text>
+<rect x="389.9" y="38.0" width="14.0" height="14.0" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="409.9" y="49.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">saved output</text>
+<rect x="20.0" y="80.0" width="210.0" height="64.0" rx="6" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.4"/>
+<text x="125.0" y="102.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">role_manifest_v2</text>
+<text x="125.0" y="116.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">groups, duplicates, ru documents</text>
+<text x="125.0" y="130.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">kept on one side; exclude_* dropped</text>
+<rect x="250.0" y="80.0" width="200.0" height="64.0" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+<text x="350.0" y="102.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">cv_manifest_v1: 3 folds</text>
+<text x="350.0" y="116.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">63,388 rows (uk 31,432 · ru 31,956)</text>
+<text x="350.0" y="130.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">fold k held out</text>
+<rect x="470.0" y="80.0" width="200.0" height="64.0" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+<text x="570.0" y="102.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">extra training rows</text>
+<text x="570.0" y="116.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">200,000 per language</text>
+<text x="570.0" y="130.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">from role_v2 = train</text>
+<rect x="690.0" y="80.0" width="250.0" height="64.0" rx="6" fill="#fce7f3" stroke="#db2777" stroke-width="1.4"/>
+<text x="815.0" y="102.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">held-out fold k</text>
+<text x="815.0" y="116.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">scored once → CV F1</text>
+<text x="815.0" y="130.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">+ synthetic multi-line posts</text>
+<line x1="230.0" y1="112.0" x2="248.0" y2="112.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="250.0" y="184.0" width="420.0" height="64.0" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.4"/>
+<text x="460.0" y="206.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">training sample: 100,000 uk + 100,000 ru</text>
+<text x="460.0" y="220.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">from the 2 other folds + extra rows · 5% inner split for early stopping</text>
+<text x="460.0" y="234.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">tokenizer fitted on training text only</text>
+<line x1="350.0" y1="144.0" x2="350.0" y2="182.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)"/>
+<line x1="570.0" y1="144.0" x2="570.0" y2="182.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="250.0" y="288.0" width="420.0" height="64.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="460.0" y="310.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">fit: AdamW lr 0.003, batch 32, clip 1.0</text>
+<text x="460.0" y="324.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">≤ 10 epochs, patience 3 on inner F1, best epoch restored</text>
+<text x="460.0" y="338.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">Lightning; curves to W&amp;B</text>
+<line x1="460.0" y1="248.0" x2="460.0" y2="286.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)"/>
+<rect x="20.0" y="392.0" width="920.0" height="64.0" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="480.0" y="414.0" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="middle">saved per model: logits (O, B, I per token) + CRF transitions</text>
+<text x="480.0" y="428.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">splits: inner · heldout · synthetic posts · 26 labeled posts · 477 test posts</text>
+<text x="480.0" y="442.0" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">plus tokenizer.json and model.pt, so any ensemble is rebuilt without retraining</text>
+<line x1="460.0" y1="352.0" x2="460.0" y2="390.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)"/>
+<line x1="815.0" y1="144.0" x2="815.0" y2="390.0" stroke="#6b7280" stroke-width="1.4" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<text x="825.0" y="214.0" font-size="10" font-weight="normal" fill="#4b5563" text-anchor="start" font-style="italic">score</text>
+</svg>
